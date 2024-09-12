@@ -1,0 +1,179 @@
+@import url('<link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Francois+One&family=Great+Vibes&family=PT+Sans+Narrow:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('<link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">');
+
+body {
+  margin: 0 40px;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #181a1d;
+  color: #fff;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+}
+.cabecalho-img {
+  margin: auto;
+}
+
+.container-apresentacao {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex-basis: 600px;
+  margin: 32px 0;
+}
+
+.personagem {
+  display: flex;
+  padding: 1rem;
+  gap: 0.25rem;
+}
+
+.personagem-conteudo {
+  margin-right: 1.5rem;
+  margin-top: 0;
+}
+
+.personagem-conteudo-principe {
+  margin-left: 1.5rem;
+}
+
+.personagem-conteudo-titulo {
+  font-family: "Great Vibes", cursive;
+  font-size: 42px;
+  margin-top: 0;
+}
+
+.personagem-conteudo-titulo-principe {
+  font-family: "Great Vibes", cursive;
+  font-size: 42px;
+  text-align: end;
+  margin-top: 0;
+}
+
+.personagem-conteudo-paragrafo {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.personagem-imagem {
+  flex-basis: 300px;
+}
+
+.personagem-img {
+  width: 420px;
+  height: 580px;
+  border-radius: 10px;
+}
+
+.container-carrousel {
+  display: block;
+  margin: 20px 20px;
+  height: 1320px;
+  margin-top: 32px;
+  margin-top: 32px;
+}
+
+.swiper {
+  width: 100%;
+  height: 95%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181a1d;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 3%;
+}
+
+.swiper-pagination-bullet {
+  background-color: #545557;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #a4161a !important;
+}
+
+.carrousel-cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.carrousel-titulo {
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+}
+
+.carrousel-paragrafo {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  align-self: center;
+  margin-top: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.carrousel-subparagrafo {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  align-self: center;
+  margin-top: 0;
+}
+
+.carrousel-subtitulo {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  width: 100´x;
+}
+
+.playlist {
+  margin-bottom: 40px;
+}
+
+.video-youtube {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.finalbox{
+  padding-bottom: 30px;
+  border-bottom: 1px solid #fff;
+}
+
+.finale {
+  margin-top: 60px;
+}
+
+.espaco {
+  margin: 22px 0;
+}
+
+.videoyt {
+  margin: 32px 0;
+}
